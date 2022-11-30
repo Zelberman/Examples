@@ -23,8 +23,10 @@ else
     Console.WriteLine(" - max");
 
     Console.Write(x);
-    Console.WriteLine(" - min");
+    Console.WriteLine(" - min ");
 }
+
+
 
 
 Console.WriteLine("Задача 4");
@@ -69,14 +71,19 @@ else
 
 Console.WriteLine("Задача 8");
 
-int N = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите число N");
+int n = int.Parse(Console.ReadLine()!);
 
-i == 0
-while (i < N+1)
+int i = 0;
+while (i < n + 1)
+
+    if (i % 2 == 0)
+{    Console.Write(i);
+i = i + 1;}
+
+else 
 {
-    if (i % 2 = 0)
-    Console.Write(i);
-    
+i++;
 }
 
 
