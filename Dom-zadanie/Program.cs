@@ -15,7 +15,7 @@ if (x > y)
     Console.WriteLine("- max");
 
     Console.Write(y);
-    Console.Write("-  min");
+    Console.Write("- min \n");
 }
 else
 {
@@ -23,13 +23,10 @@ else
     Console.WriteLine(" - max");
 
     Console.Write(x);
-    Console.WriteLine(" - min ");
+    Console.WriteLine("-min \n ");
 }
 
-
-
-
-Console.WriteLine("Задача 4");
+Console.WriteLine("Задача 4 ");
 
 Console.WriteLine("Введите 1 число");
 int a = int.Parse(Console.ReadLine()!);
@@ -62,7 +59,7 @@ if (z % 2 == 0)
     Console.WriteLine(" да, число четное");
 }
 
-else 
+else
 {
     Console.WriteLine(z);
     Console.WriteLine("Нет, Число не четное");
@@ -78,11 +75,13 @@ int i = 0;
 while (i < n + 1)
 
     if (i % 2 == 0)
-{    Console.Write(i);
-i = i + 1;}
+    {
+        Console.Write(i);
+        i = i + 1;
+    }
 
-else 
-{
-i++;
-}
+    else
+    {
+        i++;
+    }
 
