@@ -96,7 +96,7 @@ Console.WriteLine("Задача 23");
 
 Console.WriteLine("Введите число N");
 int nummmber = int.Parse(Console.ReadLine()!);
-int [] arr = new int [nummmber];
+// int [] arr = new int [nummmber];
 int index = 1;
 int sum1 = 1;
 Console.WriteLine ($" Таблица кубов: \t числа {nummmber} равна:");
