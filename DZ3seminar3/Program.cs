@@ -25,11 +25,11 @@ while (array[0] != array[4] || array[1] != array[3])
     Console.Write($"{array[4]} \t - не является палиндромом");
     i = 0;
 }
-Console.Write($" \t Числооо {array[0]}");
+Console.Write($" \t Число {array[0]}");
 Console.Write(array[1]);
 Console.Write(array[2]);
 Console.Write(array[3]);
-Console.Write($"{array[4]} - является палиндромом \t ");
+Console.Write($"{array[4]} - является палиндромом \n ");
 
 
 
@@ -62,9 +62,50 @@ else
 
 }
 
+Console.WriteLine("Задача №21");
+
+// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+// A (3,6,8); B (2,1,-7), -> 15.84
+// A (7,-5, 0); B (1,-1,9) -> 11.53
+Console.WriteLine("Введите координаты двух точек");
+Console.WriteLine("X точки А");
+int x1 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Y точки А");
+int y1 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Z точки А");
+int z1 = int.Parse(Console.ReadLine()!);
+
+Console.WriteLine("X точки B");
+int x2 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Y точки B");
+int y2 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Z точки B");
+int z2 = int.Parse(Console.ReadLine()!);
 
 
+double length = Math.Sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) + (z1 - z2) * (z1 - z2));
 
+Console.WriteLine($"длина отрезка равна {length}");
+
+
+Console.WriteLine("Задача 23");
+
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+Console.WriteLine("Введите число N");
+int nummmber = int.Parse(Console.ReadLine()!);
+int [] arr = new int [nummmber];
+int index = 1;
+int sum1 = 1;
+Console.WriteLine ($" Таблица кубов: \t числа {nummmber} равна:");
+while (index <= nummmber)
+    {
+        sum1 = index * index * index; 
+        Console.WriteLine (sum1);
+        index++;
+    }
 
 
 
