@@ -22,10 +22,12 @@ Console.WriteLine("Hello, World!");
 // return sum;
 // }
 
+
 // Задача 26
+// На входе число , посчитать количество чисел в числе.
+
 // Console.WriteLine("введите число: ");
 // int num = int.Parse(Console.ReadLine()!);
-
 
 // int GetCountNum(int number)
 // {
@@ -41,7 +43,9 @@ Console.WriteLine("Hello, World!");
 
 
 // Задача 28
-// Console.WriteLine("введите число: ");
+ //На вход число N  и выдает произведение чисел от 1 до N.
+
+// Console.WriteLine("введите число N: ");
 // int N = int.Parse(Console.ReadLine()!);
 // int GetProizvedenie(int number)
 // {
@@ -59,7 +63,7 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine($"Ответ = {GetProizvedenie(N)}");
 
 // Задача 30
-
+// Записать массив, в котором будет заполнен из 8 элементов из 0 и 1
 int N = 8;
 int[] arr = new int[N];
 void GetArray(int[] array)
