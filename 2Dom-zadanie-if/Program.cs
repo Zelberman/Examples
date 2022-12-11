@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("Задача №10");
 //  int number = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Компьютер вводит рэндомное число, если число будет трехзначным, то \nМы вычислим второе значение этого числа");
+Console.WriteLine("Компьютер вводит рэндомное число, если число будет трехзначным, то \n Мы вычислим второе значение этого числа");
 
-//Если требуется, чтобы число вводил пользователь, то закомментируйте строчку №3 и раскомментируйте строку №2 
+//Если требуется, чтобы число вводил пользователь, то закомментируйте строчку №8 и раскомментируйте строку №2 
 
 
 int number = new Random().Next();
@@ -33,10 +33,6 @@ Console.WriteLine("Введите любое число");
 int number3 = new Random().Next();
 //int number3 = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"заданное число - {number3}");
-
-
-
-
 if (number3 < 0)
     number3 = -number3;
 
@@ -55,7 +51,7 @@ if (number3 > 99 & number3 < 1000)
 {
     Console.WriteLine($"третье число будет равно - {number3 % 10}");
 }
-
+Console.Clear();
 
 Console.WriteLine("Задача №15");
 
@@ -79,7 +75,7 @@ int num7 = array[6];
 // string Monday = 1;
 // int num0 = int.Parse(Mondey);
 // Console.WriteLine($"Monday");
-
+Console.Clear();
 
 
 int index = 0;
