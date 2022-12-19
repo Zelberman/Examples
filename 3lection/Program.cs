@@ -1,51 +1,73 @@
 ﻿
-// int Max(int arg1,int arg2,int arg3)
-// {
-//     int result = arg1;
-//     if (arg2 > result) result = arg2;
-//     if (arg3 > result) result = arg3;
-//     return result;
-// }
-// int [] array = {11,12,34,56,67,23,54,76,88};
-// int a1 = 4;
-// int b1 = 7;
-// int c1 = 11;
 
-// int max1 = Max(array[0], array[1], array[3]);
-// Console.WriteLine(max1);
 
-// Example
-// int find = int.Parse(Console.ReadLine()!);
-void Function(int[] arrayN)
+// Задача: создать массив и заполнить его элементами, отличными от нуля, используя функции. 
+// Вывести результат на экран
+Console.WriteLine("my work");
+
+void test(int[] array1)
 {
-    int i = 0;
-    int len = arrayN.Length;
-    while (i < len)
+    int index1 = 0;
+    int lenarray1 = array1.Length;
+    while (index1 < lenarray1)
     {
-        arrayN[i] = new Random().Next(1, 10);
-        i++;
+        array1[index1] = new Random().Next(1, 10);
+        index1++;
     }
 }
 
-void PrintArray(int[] arrayM)
+void printtest1(int[] array1print)
 {
-    int count = arrayM.Length;
+    int ind = 0;
+    int array1length = array1print.Length;
+    while (array1length > ind)
+    {
+
+        Console.WriteLine(array1print[ind]);
+        ind++;
+    }
+}
+
+int indexof(int[] array1, int find1)
+{
     int position = 0;
-    while (count > position)
+    int index1 = 0;
+    int lenarray11 = array1.Length;
+    while(lenarray11 > index1)
+{
+    
+    if (array1[index1] == find1)
     {
-        Console.WriteLine($"текущее значение массива {arrayM[position]}");
-        position++;
+        position = index1;
     }
-
+    index1++;
 }
+return position;
+}
+// int numberwork = int.Parse(Console.ReadLine()!);
+int[] work = new int [10];
+test(work);
 
-int[] array = new int[10];   //задали массив из 10 элементов
-Function(array);  //заполнили массив числами
-PrintArray(array); //напечатали массив
+printtest1(work);
+Console.WriteLine();
 
-    // if (array[i] == find)
-    // {
-    //     Console.WriteLine($"Номер числа в массиве {i}");
-    // }
-    // else
-    //     Console.WriteLine("исходное значение в массиве не найдено");
+int pos = indexof(work, 4);
+Console.WriteLine (pos);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
