@@ -81,13 +81,54 @@ int sumnechet(int[] array2)
 int[] receive = funct(num);
 Console.WriteLine(string.Join(" ", receive));
 
-int receivesum = sumnechet (receive);
+int receivesum = sumnechet(receive);
 Console.WriteLine($"сумма нечетных чисел массива равна {receivesum}");
 
 
 
 
+// Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
+// [3 7 22 2 78] -> 76
 
+Console.WriteLine("введите количество элементов массива");
+int col = int.Parse(Console.ReadLine()!);
+double[] ves(int col1)
+
+{
+    double[] arraycol = new double[col1];
+    for (int count = 0; count < col; count++)
+    {
+        arraycol[count] = new Random().NextDouble();
+    }
+    return arraycol;
+}
+void res(double[] arrayres, int size)
+// double res(double[] arrayres, int size)
+{
+    double maxNumber = arrayres[0];
+    double minNumber = arrayres[0];
+    for (int count = 1; count < size; count++ )
+    {
+        if (arrayres [count] > maxNumber)
+        {
+            maxNumber = arrayres [count];
+        }   
+         else 
+         {
+                if (arrayres[count] < minNumber)
+                {
+                    minNumber = arrayres[count];
+                }
+         }
+    }
+    Console.WriteLine ($"максимальное значение - {maxNumber}, минимальное значение - {minNumber}");
+    Console.WriteLine ($"разница между max и min значениями составляет- {maxNumber - minNumber}");
+}
+
+double[] doub = ves(col);
+Console.WriteLine(string.Join("\t", doub));
+
+res(doub, col);
 
 
