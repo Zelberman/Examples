@@ -7,40 +7,40 @@
 
 
 Console.WriteLine("введите количество чисел, которые собираететсь ввести");
-int M = int.Parse(Console.ReadLine()!);
+int M = int.Parse(Console.ReadLine()!); // пользователь вводит количество чисел, которые собирается задать.
 
-int[] GetArray(int M1)
+int[] GetArray(int M1) // задаем метод, который принимает на входе число М1 (М),  а на выходе получаем массив.
 {
-    int[] array = new int[M1];
-    for (int i = 0; i < M1; i++)
+    int[] array = new int[M1]; // задаем новый массив с количеством элементов в нем, равном М1 (М)
+    for (int i = 0; i < M1; i++) // запускаем цикл по заполнению массива пользовательскими значениями
     {
-        Console.WriteLine("Введите числа, пожалуйста:");
-        array[i] = int.Parse(Console.ReadLine()!);     //new Random().Next(min,max);
-        Console.WriteLine($"вы ввели {array[i]}");
+        Console.WriteLine("Введите числа, пожалуйста:"); 
+        array[i] = int.Parse(Console.ReadLine()!);   //пользователь вводит количесвто чисел, равное М1 (М) 
+        Console.WriteLine($"вы ввели {array[i]}"); // печатаем каждое введенное пользователем число
     }
-    return array;
+    return array; // возвращаем полученный массив
 }
 
-int Positive(int[] arraymass)
+int Positive(int[] arraymass) // задаем метод, который на входе принимает массив arraymass, а на выходе выдает число.
 {
-    int count = 0;
+    int count = 0; // задаем счетчик 
 
-    for (int i = 0; i < arraymass.Length; i++)
+    for (int i = 0; i < arraymass.Length; i++) // задаем цикл, который длится до достижения инкремента значения последнего индекса массива
     {
-        if (arraymass[i] > 0)
+        if (arraymass[i] > 0) // задаем условие внутри цикла, в которм значения элементов массива больше 0.
         {
-            count++;
+            count++; // прибавляем счетчик, если значения элементов массива больше 0
         }
     }
-    return count;
+    return count; // возвращаем результирующее значение счетчика
 }
 
-int[] result = GetArray(M);
+int[] result = GetArray(M); // задаем массив с именем result, вызываем метод с обрабатываемым числом М
 Console.WriteLine("Введенные Вами числа: ");
-Console.WriteLine(string.Join(" ", result));
+Console.WriteLine(string.Join(" ", result)); // печатаем обработанный методом GetArray массив
 
-// double[5] M = double.Parse(Console.ReadLine()!);
-int result1 = Positive(result);
-Console.WriteLine($"Число введеных чисел больше 0 равно {result1}");
+int result1 = Positive(result); // задаем переменную result1, которая равна значению count, который мы вернули из
+                                // метода Positive введя в него массив result
+Console.WriteLine($"Число введеных чисел больше 0 равно {result1}"); // печатаем результат result1.
 
 
