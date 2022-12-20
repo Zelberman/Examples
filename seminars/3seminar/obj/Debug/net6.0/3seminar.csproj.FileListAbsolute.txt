@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Examples\3seminar\bin\Debug\net6.0\3seminar.exe
+C:\Users\admin\Desktop\Examples\3seminar\bin\Debug\net6.0\3seminar.deps.json
+C:\Users\admin\Desktop\Examples\3seminar\bin\Debug\net6.0\3seminar.runtimeconfig.json
+C:\Users\admin\Desktop\Examples\3seminar\bin\Debug\net6.0\3seminar.dll
+C:\Users\admin\Desktop\Examples\3seminar\bin\Debug\net6.0\3seminar.pdb
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\3seminar.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\3seminar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\3seminar.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\3seminar.AssemblyInfo.cs
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\3seminar.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\3seminar.dll
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\refint\3seminar.dll
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\3seminar.pdb
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\3seminar.genruntimeconfig.cache
+C:\Users\admin\Desktop\Examples\3seminar\obj\Debug\net6.0\ref\3seminar.dll
