@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Examples\Example004delenie\bin\Debug\net6.0\Example004delenie.exe
+C:\Users\admin\Desktop\Examples\Example004delenie\bin\Debug\net6.0\Example004delenie.deps.json
+C:\Users\admin\Desktop\Examples\Example004delenie\bin\Debug\net6.0\Example004delenie.runtimeconfig.json
+C:\Users\admin\Desktop\Examples\Example004delenie\bin\Debug\net6.0\Example004delenie.dll
+C:\Users\admin\Desktop\Examples\Example004delenie\bin\Debug\net6.0\Example004delenie.pdb
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\Example004delenie.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\Example004delenie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\Example004delenie.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\Example004delenie.AssemblyInfo.cs
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\Example004delenie.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\Example004delenie.dll
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\refint\Example004delenie.dll
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\Example004delenie.pdb
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\Example004delenie.genruntimeconfig.cache
+C:\Users\admin\Desktop\Examples\Example004delenie\obj\Debug\net6.0\ref\Example004delenie.dll

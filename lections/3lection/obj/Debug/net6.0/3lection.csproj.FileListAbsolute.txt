@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Examples\3lection\bin\Debug\net6.0\3lection.exe
+C:\Users\admin\Desktop\Examples\3lection\bin\Debug\net6.0\3lection.deps.json
+C:\Users\admin\Desktop\Examples\3lection\bin\Debug\net6.0\3lection.runtimeconfig.json
+C:\Users\admin\Desktop\Examples\3lection\bin\Debug\net6.0\3lection.dll
+C:\Users\admin\Desktop\Examples\3lection\bin\Debug\net6.0\3lection.pdb
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\3lection.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\3lection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\3lection.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\3lection.AssemblyInfo.cs
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\3lection.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\3lection.dll
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\refint\3lection.dll
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\3lection.pdb
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\3lection.genruntimeconfig.cache
+C:\Users\admin\Desktop\Examples\3lection\obj\Debug\net6.0\ref\3lection.dll
