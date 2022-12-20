@@ -7,4 +7,4 @@ if (array[0] == array[4] & array[1] == array[3])
     
 
 
-// int[] array = new int[N];
+// int[] array = new int[N]; ok
