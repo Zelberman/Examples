@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\bin\Debug\net6.0\2Dom-zadanie-if.exe
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\bin\Debug\net6.0\2Dom-zadanie-if.deps.json
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\bin\Debug\net6.0\2Dom-zadanie-if.runtimeconfig.json
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\bin\Debug\net6.0\2Dom-zadanie-if.dll
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\bin\Debug\net6.0\2Dom-zadanie-if.pdb
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\2Dom-zadanie-if.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\2Dom-zadanie-if.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\2Dom-zadanie-if.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\2Dom-zadanie-if.AssemblyInfo.cs
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\2Dom-zadanie-if.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\2Dom-zadanie-if.dll
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\refint\2Dom-zadanie-if.dll
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\2Dom-zadanie-if.pdb
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\2Dom-zadanie-if.genruntimeconfig.cache
+C:\Users\admin\Desktop\Examples\2Dom-zadanie-if\obj\Debug\net6.0\ref\2Dom-zadanie-if.dll

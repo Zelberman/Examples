@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "5DZ-funktion/1.0.0": {
+        "runtime": {
+          "5DZ-funktion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "5DZ-funktion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

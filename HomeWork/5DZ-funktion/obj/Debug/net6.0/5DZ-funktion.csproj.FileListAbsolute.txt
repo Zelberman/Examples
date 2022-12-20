@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Examples\5DZ-funktion\bin\Debug\net6.0\5DZ-funktion.exe
+C:\Users\admin\Desktop\Examples\5DZ-funktion\bin\Debug\net6.0\5DZ-funktion.deps.json
+C:\Users\admin\Desktop\Examples\5DZ-funktion\bin\Debug\net6.0\5DZ-funktion.runtimeconfig.json
+C:\Users\admin\Desktop\Examples\5DZ-funktion\bin\Debug\net6.0\5DZ-funktion.dll
+C:\Users\admin\Desktop\Examples\5DZ-funktion\bin\Debug\net6.0\5DZ-funktion.pdb
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\5DZ-funktion.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\5DZ-funktion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\5DZ-funktion.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\5DZ-funktion.AssemblyInfo.cs
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\5DZ-funktion.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\5DZ-funktion.dll
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\refint\5DZ-funktion.dll
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\5DZ-funktion.pdb
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\5DZ-funktion.genruntimeconfig.cache
+C:\Users\admin\Desktop\Examples\5DZ-funktion\obj\Debug\net6.0\ref\5DZ-funktion.dll
