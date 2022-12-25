@@ -94,19 +94,22 @@ void PrintMassive(int[,] printMas)
 
 
 
-void indMas (int x, int y, int x1, int y1)
+void indMas (int x, int y, int x1, int y1, int[,] arr2)
 {
-    int [,] dataMas = new int[x, y];
+    
     if (x > x1 && y > y1 )
     {
-        Console.WriteLine();
-        Console.WriteLine(dataMas[x1,y1]);
+        Console.WriteLine($"Вывод элемента массива по индексу строка № {rowNumber+1} столбец № {columNumber+1}");
+        Console.WriteLine(arr2[x1,y1]);
     }
     else 
     Console.WriteLine ("Введенное число лежит за пределами массива");
 }
-PrintMassive(GetArray(row1, colum1));
-indMas (row1, colum1,rowNumber, columNumber);
+int[,] arr1 = GetArray(row1, colum1);
+PrintMassive(arr1);
+Console.WriteLine();
+// PrintMassive(GetArray(row1, colum1));
+indMas (row1, colum1,rowNumber, columNumber, arr1);
 
 
 

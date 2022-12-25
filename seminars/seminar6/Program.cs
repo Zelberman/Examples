@@ -9,7 +9,7 @@
 
 
 
-// nt[] array = GetArray(9, 0, 10);                - вызов фуекции GetArray
+// nt[] array = GetArray(9, 0, 10);                - вызов функции GetArray
 // Console.WrteLne(strng.Jon(" ", array));         - печать полного массива
 // Console.WrteLne();                              - отступ    
 // nt[] reversArray = ReversArray2(array);         - вызов функции revers array
