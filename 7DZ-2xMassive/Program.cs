@@ -63,6 +63,7 @@ Console.WriteLine("значение элемента по горизонтале
 int rowNumber = int.Parse(Console.ReadLine()!);
 Console.WriteLine("введите значение элемента по вертикале");
 int columNumber = int.Parse(Console.ReadLine()!);
+Console.WriteLine();
 
 int[,] GetArray(int newrow, int newcolum)
 {
@@ -112,8 +113,53 @@ Console.WriteLine();
 indMas (row1, colum1,rowNumber, columNumber, arr1);
 
 
+// Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+// Например, задан массив:
+// 1 4 7 2
+// 5 9 2 3
+// 8 4 2 4
+// Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
 
+
+Console.WriteLine ("Задача #52");
+Console.WriteLine("Введите количесвто строк массива");
+int row3 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите количество столбцов массива");
+int columb3 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите минимальное целое число");
+int cellMinNumber = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите максимальное целое число");
+int cellMaxNumber = int.Parse(Console.ReadLine()!);
+
+int [,] GetArray3 (int row4, int columb4, int MinNumber, int MaxNumber)
+{
+    int [,] array3 = new int [row4, columb4];
+    
+    
+        for (int i=0; i > array3.GetLength(0); i++)
+        {
+            for (int j = 0; j > array3.GetLength(1); j++)    
+             {
+                array3 [i,j] = new Random().Next(MinNumber, MaxNumber);                
+             }            
+    }
+
+return array3;
+}
+
+void Print3 (int[,] printArray3)
+{
+    for (int i =0; i < printArray3.GetLength(0); i++)
+    {
+        for (int j = 0; j< printArray3.GetLength(1); j++) 
+        Console.WriteLine(printArray3[i,j]);
+    }
+
+}
+
+int[,] result3 = GetArray3 (row3, columb3, cellMinNumber, cellMaxNumber);
+Print3 (result3);
 
 
 
