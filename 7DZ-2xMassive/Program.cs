@@ -5,7 +5,7 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 Console.WriteLine("Задача 47");
-Console.WriteLine("задайте количесвто строк");
+Console.WriteLine("задайте количество строк");
 int rows = int.Parse(Console.ReadLine()!);
 Console.WriteLine("задайте количество столбцов");
 int colums = int.Parse(Console.ReadLine()!);
@@ -165,10 +165,11 @@ void Print3(int[,] printArray3)
 void Sum(int[,] Mas)
 { int num3 = 0;
     for (int j = 0; j < Mas.GetLength(1); j++)
-    { int summ = 0;
+    { double summ = 0;
         for(int i = 0; i < Mas.GetLength(0); i++)
-        {summ = (summ + Mas[i,j]);} // Mas.GetLength(1);
-    Console.WriteLine($"сумма столбца {num3} равна \t{summ}");
+        {summ = (summ + Mas[i,j]);}
+        
+    Console.WriteLine($"среднее ареф. столбца {num3} равна \t{summ/Mas.GetLength(0)}");
     num3++;}
 }
 
