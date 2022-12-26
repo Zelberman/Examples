@@ -41,7 +41,7 @@ void Print(double[,] printArray)
 double[,] result = AnyMassive(rows, colums);
 // Console.WriteLine($"массив из случайных чисел = {result}");
 Print(result);
- Console.WriteLine();
+Console.WriteLine();
 // Console.WriteLine (string.Join("", array));
 
 
@@ -69,7 +69,7 @@ int[,] GetArray(int newrow, int newcolum)
 {
     int[,] arr = new int[newrow, newcolum];
 
-    for (int i = 0; i < arr.GetLength(0) ; i++)
+    for (int i = 0; i < arr.GetLength(0); i++)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         {
@@ -87,7 +87,8 @@ void PrintMassive(int[,] printMas)
         {
             Console.Write($"{printMas[i, j]}\t");
         }
-    Console.WriteLine();}
+        Console.WriteLine();
+    }
 }
 
 // int[,] resultMas = GetArray(row1, colum1);
@@ -95,22 +96,22 @@ void PrintMassive(int[,] printMas)
 
 
 
-void indMas (int x, int y, int x1, int y1, int[,] arr2)
+void indMas(int x, int y, int x1, int y1, int[,] arr2)
 {
-    
-    if (x > x1 && y > y1 )
+
+    if (x > x1 && y > y1)
     {
-        Console.WriteLine($"Вывод элемента массива по индексу строка № {rowNumber+1} столбец № {columNumber+1}");
-        Console.WriteLine(arr2[x1,y1]);
+        Console.WriteLine($"Вывод элемента массива по индексу строка № {rowNumber + 1} столбец № {columNumber + 1}");
+        Console.WriteLine(arr2[x1, y1]);
     }
-    else 
-    Console.WriteLine ("Введенное число лежит за пределами массива");
+    else
+        Console.WriteLine("Введенное число лежит за пределами массива");
 }
 int[,] arr1 = GetArray(row1, colum1);
 PrintMassive(arr1);
 Console.WriteLine();
 // PrintMassive(GetArray(row1, colum1));
-indMas (row1, colum1,rowNumber, columNumber, arr1);
+indMas(row1, colum1, rowNumber, columNumber, arr1);
 
 
 // Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
@@ -122,7 +123,7 @@ indMas (row1, colum1,rowNumber, columNumber, arr1);
 
 
 
-Console.WriteLine ("Задача #52");
+Console.WriteLine("Задача #52");
 Console.WriteLine("Введите количесвто строк массива");
 int row3 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите количество столбцов массива");
@@ -132,34 +133,47 @@ int cellMinNumber = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите максимальное целое число");
 int cellMaxNumber = int.Parse(Console.ReadLine()!);
 
-int [,] GetArray3 (int row4, int columb4, int MinNumber, int MaxNumber)
+int[,] GetArray3(int row4, int columb4, int MinNumber, int MaxNumber)
 {
-    int [,] array3 = new int [row4, columb4];
-    
-    
-        for (int i=0; i > array3.GetLength(0); i++)
-        {
-            for (int j = 0; j > array3.GetLength(1); j++)    
-             {
-                array3 [i,j] = new Random().Next(MinNumber, MaxNumber);                
-             }            
-    }
+    int[,] array3 = new int[row4, columb4];
 
-return array3;
-}
 
-void Print3 (int[,] printArray3)
-{
-    for (int i =0; i < printArray3.GetLength(0); i++)
+    for (int i = 0; i < array3.GetLength(0); i++)
     {
-        for (int j = 0; j< printArray3.GetLength(1); j++) 
-        Console.WriteLine(printArray3[i,j]);
+        for (int j = 0; j < array3.GetLength(1); j++)
+        {
+            array3[i, j] = new Random().Next(MinNumber, MaxNumber);
+            // Console.Write($"{array3[i,j]}");               
+        }
     }
 
+    return array3;
 }
 
-int[,] result3 = GetArray3 (row3, columb3, cellMinNumber, cellMaxNumber);
-Print3 (result3);
+void Print3(int[,] printArray3)
+{
+    for (int i = 0; i < printArray3.GetLength(0); i++)
+    {
+        for (int j = 0; j < printArray3.GetLength(1); j++)
+        {
+            Console.Write($"\t\t {printArray3[i, j]}");
+        }
+        Console.WriteLine();
+    }Console.WriteLine();
+}
 
+void Sum(int[,] Mas)
+{ int num3 = 0;
+    for (int j = 0; j < Mas.GetLength(1); j++)
+    { int summ = 0;
+        for(int i = 0; i < Mas.GetLength(0); i++)
+        {summ = (summ + Mas[i,j]);} // Mas.GetLength(1);
+    Console.WriteLine($"сумма столбца {num3} равна \t{summ}");
+    num3++;}
+}
+
+int[,] result3 = GetArray3(row3, columb3, cellMinNumber, cellMaxNumber);
+Print3(result3);
+Sum(result3);
 
 
