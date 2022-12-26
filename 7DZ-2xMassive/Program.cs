@@ -175,5 +175,5 @@ void Sum(int[,] Mas)
 int[,] result3 = GetArray3(row3, columb3, cellMinNumber, cellMaxNumber);
 Print3(result3);
 Sum(result3);
-
+//end
 
