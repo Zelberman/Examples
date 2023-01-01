@@ -29,9 +29,12 @@ int[,] GetArray(int stringsMethod, int columbsMethod)
         for (int j = 0; j < massive.GetLength(1); j++)
         {
             massive[i, j] = new Random().Next(0, 10);
+            Console.Write($"\t{massive[i,j]}");
         }
+   Console.WriteLine();
     }
     return massive;
+    // Console.WriteLine();
 }
 
 void PrintArray(int[,] MassivePrint)
@@ -45,31 +48,29 @@ void PrintArray(int[,] MassivePrint)
         Console.WriteLine();
     }
 }
-
-
 int[,] SortMassive(int[,] sort)
 {
-    int minValue = sort[sort.GetLength(0) - 1, sort.GetLength(1) - 1];
     int stakan = 0;
     for (int i = 0; i < sort.GetLength(0); i++)
     {
-        for (int j = 0; j < sort.GetLength(1); j++)
+        int minValue = sort[i, 0];
+        for (int j = 0; j < sort.GetLength(1)-1; j++)
         {
-            if (sort[i, j] < minValue)
-                minValue = sort[i,j];
-                stakan = sort[i,j];
-                sort[i,j] = sort[i,sort.GetLength(1)-1] ;
-                sort[i, sort.GetLength(1)-1] = stakan;
-        // Console.WriteLine(sort[i,j]);
-        // Console.WriteLine(sort.GetLength(0)-1);
+            if (sort[i, j] > sort [i, j+1])
+            // minValue = sort[i, j];  
+            stakan = sort[i, j];
+            sort[i, j] = sort[i, j+1];
+            sort[i, j+1] = stakan;
+            
+            // Console.WriteLine(sort[i,j]);
+            // Console.WriteLine(sort.GetLength(0)-1);
         }
-
     }
-return sort;
+    return sort;
 }
-
+ Console.WriteLine();
 int[,] massiveNumbers = GetArray(strings, columbs);
-int [,] sortedMassive = SortMassive(massiveNumbers);
+int[,] sortedMassive = SortMassive(massiveNumbers);
 PrintArray(massiveNumbers);
 Console.WriteLine();
 PrintArray(sortedMassive);
