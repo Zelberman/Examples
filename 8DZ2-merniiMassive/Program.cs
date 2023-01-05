@@ -180,5 +180,71 @@ else
 }
 
 
+Console.WriteLine ("Задача №58");
+
+Console.WriteLine ("Введите значение элемента на позиции 0,0 первой матрицы");
+int a00 = int.Parse(Console.ReadLine()!);
+Console.WriteLine ("Введите значение элемента на позиции 0,1 первой матрицы");
+int a01 = int.Parse (Console.ReadLine()!);
+Console.WriteLine ("ВВедите значение элемента на позиции 1,0 первой матрицы");
+int a10 = int.Parse(Console.ReadLine()!);
+Console.WriteLine ("Введите значение элемента на позиции 1,1 первой матрицы");
+int a11 = int.Parse (Console.ReadLine()!);
+
+Console.WriteLine ("Введите значение элемента на позиции 0,0 второй матрицы");
+int b00 = int.Parse(Console.ReadLine()!);
+Console.WriteLine ("Введите значение элемента на позиции 0,1 второй матрицы");
+int b01 = int.Parse (Console.ReadLine()!);
+Console.WriteLine ("ВВедите значение элемента на позиции 1,0 второй матрицы");
+int b10 = int.Parse(Console.ReadLine()!);
+Console.WriteLine ("Введите значение элемента на позиции 1,1 второй матрицы");
+int b11 = int.Parse (Console.ReadLine()!);
+
+int [,] composition (int aa00,int aa01, int aa10, int aa11, int bb00,int  bb01, int bb10,int bb11)
+{
+int [,] matrixA = new int [2, 2];
+int [,] matrixB = new int [2, 2];
+
+matrixA [0,0] = aa00; matrixA [0,1] = aa01; matrixA[1,0] = aa10; matrixA[1,1] = aa11;
+matrixB [0,0] = bb00; matrixB [0,1] = bb01; matrixB [1,0] = bb10; matrixB [1,1] = bb11;
+
+ int [,] matrixAB = new int [matrixA.GetLength(0),matrixB.GetLength(1)];
+matrixAB [0,0] = matrixA [0,0] * matrixB [0,0] + matrixA [0,1] * matrixB[1,0];
+matrixAB [0,1] = matrixA [0,0] * matrixB [0,1] + matrixA[0,1] * matrixB[1,1];
+matrixAB [1,0] = matrixA [1,0] * matrixB [0,0] + matrixA[1,1] * matrixB[1,0];
+matrixAB [1,1] = matrixA [1,0] * matrixB [0,1] + matrixA [1,1] * matrixB [1,1];
+
+return matrixAB;
+
+}
+
+void PrintMatrix (int[,] printMatrixAB)
+{
+for (int i = 0; i< printMatrixAB.GetLength(0); i++)
+{
+    for (int j = 0; j < printMatrixAB.GetLength(1); j++)
+    {
+        Console.Write($"\t{printMatrixAB [i, j]}");
+    }
+Console.WriteLine();
+}
+
+}
+Console.WriteLine("Произведение двух матриц равно:");
+PrintMatrix (composition(a00,a01,a10,a11,b00,b01,b10,b11)); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
