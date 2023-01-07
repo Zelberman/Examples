@@ -40,16 +40,27 @@ Factorial(N, 1);
 // M = 4; N = 8. -> 30
 
 
-// Console.WriteLine("Задача № 66");
-// Console.WriteLine("Введите чилсо M");
-// int M = int.Parse(Console.ReadLine()!);
-// Console.WriteLine("Введите число N");
-// int N = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Задача № 66");
+Console.WriteLine("Введите чилсо M");
+int M1 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите число N");
+int N1 = int.Parse(Console.ReadLine()!);
 
-// int Sum (int NumM, int Num N)
-// {
-//     int Sum = 0;
-//     Sum = 
+int Sum (int NumM, int NumN, int summ)
+{
+    // int summ = 0;
+    if (NumM == NumN)
+    { 
+    Console.Write($"Сумма элементов от M до N равна {summ + NumM}");
+    return NumN;
+    }
+    else
+    {
+        summ = summ + NumM;
+        // Console.WriteLine($"\t{summ}");
+        return Sum (NumM + 1, NumN, summ); 
+    }
+    }
 
-// }
 
+Sum(M1, N1, 0);
