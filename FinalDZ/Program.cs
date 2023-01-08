@@ -6,9 +6,10 @@
 
 Console.WriteLine("Задача №64");
 
-Console.WriteLine("Введите число N");
+Console.WriteLine("Введите число N > 0");
 int N = int.Parse(Console.ReadLine()!);
-
+if (N>0)
+{
 int Factorial(int FactN, int first)
 {
     if (first == FactN)
@@ -30,6 +31,11 @@ int Factorial(int FactN, int first)
     }
 }
 Factorial(N, 1);
+}
+else 
+{
+    Console.WriteLine ("число меньше или равно 0");
+}
 // Console.WriteLine($"Факториал числа {N} равен");
 // Console.WriteLine (Factorial(N));
 
@@ -69,18 +75,18 @@ Console.WriteLine();
 // Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
 // m = 2, n = 3 -> A(m,n) = 9
 // m = 3, n = 2 -> A(m,n) = 29
-
+Console.WriteLine("Задача № 68");
 Console.WriteLine("Введите чилсо M");
-int M2 = int.Parse(Console.ReadLine()!);
+double M2 = int.Parse(Console.ReadLine()!); 
 Console.WriteLine("Введите число N");
-int N2 = int.Parse(Console.ReadLine()!);
+double N2 = int.Parse(Console.ReadLine()!);
 
-int Akkerman(int M3, int N3)
+double Akkerman(double M3, double N3)
 {
     if (M3 == 0)
     {
         N3 = N3 + 1;
-        Console.Write($"результат {N3} ");
+        // Console.Write($"результат {N3} ");
         return N3;
     }
     if (N3 == 0 & M3 > 0)
@@ -93,8 +99,7 @@ int Akkerman(int M3, int N3)
     }
     return N3;    // return Console.WriteLine ("Недопустимое значение");        
 }
-
-Akkerman(M2, N2);
+Console.WriteLine(Akkerman(M2, N2));
 
 
 
