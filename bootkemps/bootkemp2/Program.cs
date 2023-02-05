@@ -40,9 +40,9 @@ if (stolb == stroka)
         }
         return array2D1;
     }
-    //// изменение123
+    
     // int [,] result = GetArray(stroka, stolb);
-    //
+    
     void PrintArray(int[,] array2D2)
     {
         for (int z = 0; z < array2D2.GetLength(0); z++)
