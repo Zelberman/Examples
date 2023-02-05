@@ -42,7 +42,7 @@ if (stolb == stroka)
     }
     //
     // int [,] result = GetArray(stroka, stolb);
-
+    //
     void PrintArray(int[,] array2D2)
     {
         for (int z = 0; z < array2D2.GetLength(0); z++)
